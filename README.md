@@ -7,13 +7,7 @@
 3. Technologies Used
 4. Module 1 – Structures, Pointers, and Arrays
 5. Module 2 – Threads, Signals, and System Programming
-6. Compilation and Execution
-7. Concepts Learned
-8. Time Complexity
-9. Important Linux/System Programming Concepts
-10. Viva Questions and Answers
-11. Learning Outcomes
-12. Conclusion
+6. Important Linux/System Programming Concepts
 
 ---
 
@@ -68,31 +62,3 @@ The objectives of this training are:
 
 ---
 
-# 4. Module 1 – Structures, Pointers, and Arrays
-
----
-
-# Topic 1 – Structures
-
-## Problem Statement
-
-Create a calendar program representing one week where each day contains:
-- day name
-- maximum 3 tasks
-
-The program should:
-1. Define appropriate structures
-2. Allow user input
-3. Display all tasks grouped by day
-
----
-
-# Structure Design
-
-```c
-struct Day
-{
-    char dayName[20];
-    char tasks[3][100];
-    int taskCount;
-};
